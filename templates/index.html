@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fraud Detection</title>
+</head>
+<body>
+    <h1>Transaction Fraud Detection</h1>
+    <form action="/predict" method="post">
+        <label>Transaction Amount:</label>
+        <input type="text" name="amount" required>
+        <label>Transaction Type (1 for Credit, 0 for Debit):</label>
+        <input type="text" name="transaction_type" required>
+        <label>Account Age (in months):</label>
+        <input type="text" name="account_age" required>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
