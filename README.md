@@ -58,9 +58,6 @@ python main.py
 2. **Enter transaction details on the web page.**
 3. **View fraud detection results and reports.**
 
-## Demo
-![Fraud Detection Demo](https://your-demo-link.com/demo.gif)
-
 ## Contributors
 - *Bhavesh Mishra (Lead Developer)*
 
